@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="QWer.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header class="header">
+          <div class="header__content">
+            <h1 class="header__title"> My To-Do List </h1>
+            <svg class="header__img" xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="white" class="bi bi-pen" viewBox="0 0 16 16">
+              <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"/>
+            </svg>
+          </div>
+        </header>
+        <main class="main">
+          <div class="main__input-form">
+            <input type="text" name="taskForm" placeholder="Add new task..."  class="main__input__add">
+            <div class="main__input__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#585858" class="bi bi-plus-circle main__icon__add" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="main__task-form">
+            <ul class="main__list">
+            </ul>
+          </div>
+        </main>
+        <footer class="footer">
+          <div class="footer__buttons-form">
+            <button class="footer__button footer__button__save">
+              Save
+            </button>
+            <button class="footer__button footer__button__clear">
+              Clear
+            </button>
+            <button class="footer__button footer__button__tips">
+              Tips
+            </button>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="./Qwer2.js"></script>
+  </body>
+</html>
